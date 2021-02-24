@@ -1,0 +1,5 @@
+<p>ui-table works! {{counter}}</p>
+
+<ng-container *ngFor="let item of data">
+  <ng-container *ngTemplateOutlet="row; context: getContext(item)"></ng-container>
+</ng-container>
